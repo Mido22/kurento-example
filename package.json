@@ -1,0 +1,18 @@
+{
+  "name": "kurento-one2many-call",
+  "version": "6.1.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd static && bower install"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "es6-promise": "^3.0.2",
+    "express": "~4.12.4",
+    "kurento-client": "6.1.0",
+    "ws": "~0.7.2"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1"
+  }
+}
